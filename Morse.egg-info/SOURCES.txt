@@ -1,0 +1,9 @@
+setup.py
+Morse.egg-info/PKG-INFO
+Morse.egg-info/SOURCES.txt
+Morse.egg-info/dependency_links.txt
+Morse.egg-info/not-zip-safe
+Morse.egg-info/top_level.txt
+morse/__init__.py
+morse/data.py
+morse/morse.py
