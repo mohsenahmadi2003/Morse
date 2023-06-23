@@ -14,8 +14,8 @@ To decode, we act as follows:
 Text encryption to Morse
 """
 
-def morse_encrypt(message: str):
-    code = ""
+def morse_encrypt(message: str) -> str:
+    code:str = ""
 
     for char in message:
         if char != " ":
@@ -27,11 +27,11 @@ def morse_encrypt(message: str):
 
 
 """
-Unlock Morse code
+Morse code decoding
 """
 
-def morse_decrypt(code: str):
-    message = ""
+def morse_decrypt(code: str) -> str:
+    message:str = ""
     code = code.split(" ")
     data_keys = list(DATA.keys())
     data_values = list(DATA.values())
